@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+.avatar {
+    margin-left: 10px;
+}
+
+.menu_icon {
+    margin-right: 10px;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.search_box {
+    margin-right: 5px;
+    border-radius: 30px !important;
+}

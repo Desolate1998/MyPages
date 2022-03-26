@@ -1,0 +1,25 @@
+.banner {
+    width: 100%;
+    background-color: rgb(179, 177, 177);
+    height: 200px;
+    position: relative;
+}
+
+.avatar {
+    transform: translateY(-100px);
+}
+
+.container {}
+
+.edit_banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.content_filter {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
