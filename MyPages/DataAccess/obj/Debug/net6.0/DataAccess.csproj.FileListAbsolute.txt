@@ -1,6 +1,5 @@
 D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
 D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\DataAccess.dll
-D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\ref\DataAccess.dll
 D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\DataAccess.pdb
 D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\Domain.dll
 D:\Repos\MyPages\MyPages\DataAccess\bin\Debug\net6.0\Domain.pdb
@@ -13,3 +12,4 @@ D:\Repos\MyPages\MyPages\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyCompl
 D:\Repos\MyPages\MyPages\DataAccess\obj\Debug\net6.0\DataAccess.dll
 D:\Repos\MyPages\MyPages\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
 D:\Repos\MyPages\MyPages\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Repos\MyPages\MyPages\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll

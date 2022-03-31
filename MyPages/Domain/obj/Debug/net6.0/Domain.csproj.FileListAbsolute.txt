@@ -1,6 +1,5 @@
 D:\Repos\MyPages\MyPages\Domain\bin\Debug\net6.0\Domain.deps.json
 D:\Repos\MyPages\MyPages\Domain\bin\Debug\net6.0\Domain.dll
-D:\Repos\MyPages\MyPages\Domain\bin\Debug\net6.0\ref\Domain.dll
 D:\Repos\MyPages\MyPages\Domain\bin\Debug\net6.0\Domain.pdb
 D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
 D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -10,3 +9,4 @@ D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs
 D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\Domain.dll
 D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\ref\Domain.dll
 D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Repos\MyPages\MyPages\Domain\obj\Debug\net6.0\refint\Domain.dll

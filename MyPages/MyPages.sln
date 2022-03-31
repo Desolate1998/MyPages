@@ -7,9 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{52696F34-A666-4D74-B9ED-21D5B0DD84A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{11B76B94-1CC9-4AF7-833B-36880540C688}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "Api\api.csproj", "{E366D32B-CA4E-4F7D-92B9-8DBF2CBB9CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "Api\api.csproj", "{E366D32B-CA4E-4F7D-92B9-8DBF2CBB9CC7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{017F2948-E33B-44E6-B399-4A92D791826A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +28,6 @@ Global
 		{52696F34-A666-4D74-B9ED-21D5B0DD84A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52696F34-A666-4D74-B9ED-21D5B0DD84A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52696F34-A666-4D74-B9ED-21D5B0DD84A0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11B76B94-1CC9-4AF7-833B-36880540C688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11B76B94-1CC9-4AF7-833B-36880540C688}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11B76B94-1CC9-4AF7-833B-36880540C688}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11B76B94-1CC9-4AF7-833B-36880540C688}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E366D32B-CA4E-4F7D-92B9-8DBF2CBB9CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E366D32B-CA4E-4F7D-92B9-8DBF2CBB9CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E366D32B-CA4E-4F7D-92B9-8DBF2CBB9CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU

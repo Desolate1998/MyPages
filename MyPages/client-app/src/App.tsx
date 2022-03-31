@@ -21,7 +21,7 @@ function App() {
         <Header/>
         <Routes>
         <Route path="/" element={<ContentBody />} />
-        <Route path="Profile" element={<Profile />} />
+        <Route path="Profile/*" element={<Profile />} />
       </Routes>
     </ThemeProvider>
   );

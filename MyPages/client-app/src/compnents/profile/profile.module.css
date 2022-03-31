@@ -11,15 +11,14 @@
 
 .container {}
 
-.edit_banner {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 10px;
-}
-
 .content_filter {
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
+}
+
+.edit_banner {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
 }

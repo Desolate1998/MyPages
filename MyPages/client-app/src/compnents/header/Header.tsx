@@ -1,15 +1,15 @@
 
-import { Paper, Switch, Avatar, MenuItem, Tooltip, Menu, Typography, Divider, TextField, Box, OutlinedInput, Grid, Button, Autocomplete, Skeleton, } from '@mui/material';
+import { Paper, Switch, Avatar, MenuItem, Tooltip, Menu, Typography, Divider, TextField, Box, OutlinedInput, Grid, Button, Autocomplete, Skeleton, IconButton, } from '@mui/material';
 import React, { useState } from 'react'
 import { useStore } from '../../domain/store/store';
 import styles from './header.module.css';
 import NightsStayIcon from '@mui/icons-material/NightsStay';
 import FaceIcon from '@mui/icons-material/Face';
 import LogoutIcon from '@mui/icons-material/Logout';
+import HomeIcon from '@mui/icons-material/Home';
 import SettingsIcon from '@mui/icons-material/Settings';
 import SearchIcon from '@mui/icons-material/Search';
 import { useNavigate } from "react-router-dom";
-
 
 export const Header = () => {
   const navigate = useNavigate()
@@ -17,7 +17,6 @@ export const Header = () => {
   const { siteSettingStore } = useStore();
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const [searchItems, setsearchItems] = useState<any[]>(['\n','\n','\n','\n','\n'])
-
   const open = Boolean(anchorEl);
   const changeTheme = (event: React.ChangeEvent<HTMLInputElement>, checked: boolean) => {
     if (checked) {
@@ -52,6 +51,9 @@ export const Header = () => {
     <Paper className={styles.header} square>
       <Grid justifyContent="center" alignItems="center" spacing={2} container >
         <Grid item md={2} xs={2}>
+          <IconButton color='primary' onClick={() => navigate('/')}>
+            <HomeIcon />
+            </IconButton>
         </Grid>
         <Grid item md={8} xs={8}>
           <Autocomplete
@@ -94,7 +96,6 @@ export const Header = () => {
               <SettingsIcon className={styles.menu_icon} />
               <Typography variant='subtitle1'>User Settings</Typography>
             </MenuItem>
-
             <Divider />
             <MenuItem>
               <NightsStayIcon className={styles.menu_icon} />
